@@ -10,10 +10,10 @@ public class CloudVendor {
     public CloudVendor(){
     }
 
-    public CloudVendor(String vendorAddress, String vendorId, String vendorName, String vendorPhoneNumber) {
-        this.vendorAddress = vendorAddress;
+    public CloudVendor(String vendorId, String vendorName, String vendorAddress, String vendorPhoneNumber) {
         this.vendorId = vendorId;
         this.vendorName = vendorName;
+        this.vendorAddress = vendorAddress;
         this.vendorPhoneNumber = vendorPhoneNumber;
     }
 
